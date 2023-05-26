@@ -1,20 +1,21 @@
-.agudaMember {
+.marathon {
 	position: relative;
 	width: 100%;
 	height: 100%;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	gap: 0.5rem;
 	padding: 0.5rem;
+	background-color: antiquewhite;
 }
 
-.agudaMemberOverlay {
+.marathonOverlay {
 	position: relative;
 }
 
-.agudaMemberOverlay > img {
+.marathonOverlay > img {
 	width: 100%;
 	max-width: 150px;
 	aspect-ratio: 1;
@@ -24,12 +25,7 @@
 	border: 2px solid black;
 }
 
-.agudaMember > h3 {
+.marathon > h3 {
 	font-size: 1.5rem;
-	font-weight: 400;
-}
-
-.agudaMember > p {
-	font-size: 1rem;
 	font-weight: 400;
 }
